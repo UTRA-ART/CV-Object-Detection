@@ -1,3 +1,8 @@
+'''
+Example implementation and use of Frame_handler class 
+'''
+
+
 import time
 import os
 

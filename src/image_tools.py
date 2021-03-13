@@ -1,12 +1,5 @@
-  
 import numpy as np
 import cv2
-
-MIN_AREA = 0
-LOWER_MASK1 = np.array([0,50,50])
-UPPER_MASK1 = np.array([10,255,255])
-LOWER_MASK2 = np.array([170,50,50])
-UPPER_MASK2 = np.array([180,255,255])
 
 def crop(img):
     '''Crops image to be largest square possible'''
